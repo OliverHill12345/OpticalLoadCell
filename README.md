@@ -7,3 +7,5 @@ The latest release of OpenCV 2.4 library was installed seperately, with the cv2.
 
 To enable correct functionality, a new Environmental Variable had to be created on the Windows 7 Operating system used.
 The variable made was called "OPENCV DIR" with the value being the directory of the vc14 folder located within the OpenCV Folder
+
+The SETUP.py file found in this repository is for use with a single video file, allowing for the proper masking of the load cell image through the use of trackbars. This file saves the trackbar values to a text file called "SliderVals.txt" which is then used by the "BATCH.py" file for use on multiple .avi files located in the same directory as the "BATCH.py" file.

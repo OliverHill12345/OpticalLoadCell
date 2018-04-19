@@ -9,3 +9,5 @@ To enable correct functionality, a new Environmental Variable had to be created 
 The variable made was called "OPENCV DIR" with the value being the directory of the vc14 folder located within the OpenCV Folder
 
 The SETUP.py file found in this repository is for use with a single video file, allowing for the proper masking of the load cell image through the use of trackbars. This file saves the trackbar values to a text file called "SliderVals.txt" which is then used by the "BATCH.py" file for use on multiple .avi files located in the same directory as the "BATCH.py" file.
+
+The "CAMERA_VIEW.py" file allows for the load cell camera image to be viewed in realtime, with the video saved to a file.
